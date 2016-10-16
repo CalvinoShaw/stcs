@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosed" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosed"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="Label_m_major" min="-2" max="-2" attributes="0"/>
+                          <Component id="Label_m_money" min="-2" max="-2" attributes="0"/>
+                          <Component id="Label_m_dept" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Label_m_qq" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Label_m_dorm" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Label_m_name" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="m_major" min="-2" pref="364" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="m_money" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="m_name" alignment="0" pref="100" max="32767" attributes="0"/>
+                                  <Component id="m_dorm" alignment="0" pref="100" max="32767" attributes="0"/>
+                                  <Component id="m_dept" alignment="0" pref="100" max="32767" attributes="0"/>
+                                  <Component id="m_qq" alignment="0" pref="100" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="Label_m_post" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Label_m_email" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Label_m_phone" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Label_m_sex" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="m_phone" alignment="0" pref="100" max="32767" attributes="0"/>
+                                          <Component id="m_post" alignment="0" pref="100" max="32767" attributes="0"/>
+                                          <Component id="m_email" alignment="0" pref="100" max="32767" attributes="0"/>
+                                          <Component id="m_sex" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jLabel2" min="-2" pref="40" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="215" max="-2" attributes="0"/>
+                      <Component id="Button_doUpdate" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      <Component id="Button_back" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="92" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Label_m_name" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="m_name" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Label_m_dorm" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="m_dorm" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Label_m_qq" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="m_qq" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Label_m_dept" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="m_dept" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Label_m_sex" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="m_sex" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Label_m_phone" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="m_phone" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Label_m_email" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="m_email" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Label_m_post" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="m_post" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Label_m_money" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="m_money" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Label_m_major" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="m_major" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="67" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Button_doUpdate" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Button_back" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="Label_m_email">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x7535;&#x5b50;&#x90ae;&#x7bb1;&#xff1a;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Label_m_name">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x59d3;&#x540d;&#xff1a;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Label_m_dorm">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x5bbf;&#x820d;&#xff1a;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Label_m_qq">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="QQ&#x53f7;&#x7801;&#xff1a;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Label_m_dept">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x90e8;&#x95e8;&#xff1a;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Label_m_sex">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x6027;&#x522b;&#xff1a;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Label_m_phone">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x8054;&#x7cfb;&#x7535;&#x8bdd;&#xff1a;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Label_m_post">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x804c;&#x52a1;&#xff1a;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Label_m_money">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x4f1a;&#x8d39;&#x7f34;&#x7eb3;&#xff1a;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Label_m_major">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x9662;&#x7cfb;&#x4e13;&#x4e1a;&#xff1a;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="m_name">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="m_nameActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="m_dorm">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="m_dormActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="m_phone">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="m_phoneActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="m_dept">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="m_deptActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="m_post">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="m_postActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="m_qq">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="m_qqActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="m_email">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="m_emailActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="m_sex">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="&#x7537;"/>
+            <StringItem index="1" value="&#x5973;"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="m_money">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="&#x7b2c;&#x51e0;&#x5e74;&#x5df2;&#x4ea4;"/>
+            <StringItem index="1" value="&#x672a;&#x4ea4;"/>
+            <StringItem index="2" value="&#x5df2;&#x9000;&#x51fa;"/>
+            <StringItem index="3" value="&#x5df2;&#x6bd5;&#x4e1a;"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="m_major">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="m_majorActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Button_doUpdate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x4fdd;&#x5b58;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_doUpdateActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Button_back">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x53d6;&#x6d88;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="*"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
